@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ola mundo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+    <input id="numeroUm"/>
+    <input id="numeroDois"/>
+    <button id="calculadora"> </button>
+    
+<body>
+    <script>
+        const numeroUm = document.getElementById("numeroUm") ;
+        const numeroDois = document.getElementById("numeroDois");
+        const calc = document.getElementById('calculadora');
+
+            calculadora.addEventListener("click" , () =>{
+            soma = Number(numeroUm.value) + Number(numeroDois.value)
+            document.write(`a soma de seus numer é igual a: ${soma}  `)
+            document.write('</br>')
+
+            var document.write(`com seu antecessor sendo ${soma - 1}`)
+            var document.write('</br>')
+            var document.write(`e seu sucessor sendo ${soma + 1}`)
+            var document.write('</br>')
+            var document.write('</br>')
+            var document.write('</br>')
+            var document.write('</br>')
+
+            document.write('</br>')
+            document.write("Valor do salario por hora")
+            const inputMoney = document.createElement("input");
+            document.write('</br>')
+
+            document.write('</br>')
+            document.write("nos informe por quantas horas")
+            const inputTime = document.createElement("input");
+            document.write('</br>')
+            const button = document.createElement("button");
+
+            button.onclick = () => {
+                const salary = inputTime.value * inputMoney.value;
+                document.write(`voce ganha por mes R$${salary}`)
+            }
+
+
+
+            document.body.append(inputMoney,inputTime,button);
+
+
+        })
+
+            
+     </script>
+</body>
+</html>
